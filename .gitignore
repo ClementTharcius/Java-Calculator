@@ -1,7 +1,33 @@
-# Intellij
-.idea/
-out/
-*.iml
+# Operating System Files
 
-# Maven
-target/
+*.DS_Store
+Thumbs.db
+*.sw?
+.#*
+*#
+*~
+*.sublime-*
+
+# Build Artifacts
+
+**/.gradle/
+**/build/
+**/target/
+**/bin/
+**/dependency-reduced-pom.xml
+
+# Eclipse Project Files
+.metadata
+.metadata/
+**/.classpath
+**/.project
+**/.settings/
+
+# IntelliJ IDEA Files
+
+**/*.iml
+**/*.ipr
+**/*.iws
+**/*.idea
+
+README.html
